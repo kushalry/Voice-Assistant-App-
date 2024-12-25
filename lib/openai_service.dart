@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:zoom_clone/secrets.dart';
+import 'package:zoom_clone/kushalsecrets.dart';
 
 class OpenaiService {
   final List<Map<String, String>> messages = [];
