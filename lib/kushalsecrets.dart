@@ -1,2 +1,3 @@
-const oprnAIAPIKey =
-    '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';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
+var oprnAIAPIKey =  dotenv.env["openAIAPIKey"];
